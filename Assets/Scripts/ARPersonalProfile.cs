@@ -56,7 +56,6 @@ public class ARPersonalProfile : MonoBehaviour, IVirtualButtonEventHandler
             throw new UnityException(" not supported " + vb.VirtualButtonName);
         }
 
-
     }
 
     public void OnButtonReleased(VirtualButtonBehaviour vb)
